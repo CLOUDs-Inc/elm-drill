@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "start": "elm-test --watch ./tests/Tests.elm",
+    "start": "elm-test --watch tests/Tests.elm",
     "format": "elm-format --yes src tests answers"
   },
   "devDependencies": {
