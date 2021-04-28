@@ -51,7 +51,7 @@ getFirstValue2 ( a, b ) =
 
 {-| 2つの値からなるベクトル同士を足し合わせます
 
-    addVectors (1, 2) (3, 4) --> (4, 6)
+    addVectors ( 1, 2 ) ( 3, 4 ) --> (4, 6)
 
 -}
 addVectors : ( Float, Float ) -> ( Float, Float ) -> ( Float, Float )

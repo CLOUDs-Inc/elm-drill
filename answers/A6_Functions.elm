@@ -8,7 +8,7 @@ module A6_Functions exposing (factorial, fibonacci, formatTime, greet, greetSome
 
 参照:
 
-  - [https://guide.elm-lang.org/core\_language.html](https://guide.elm-lang.org/core_language.html)
+  - <https://guide.elm-lang.org/core_language.html>
   - <https://package.elm-lang.org/packages/elm/core/latest/Basics>
   - <https://evancz.gitbooks.io/functional-programming-in-elm/>
 

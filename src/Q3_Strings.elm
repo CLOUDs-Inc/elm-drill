@@ -7,7 +7,7 @@ module Q3_Strings exposing (concat, concatWith, concatWithComma, contains, conta
 
 参照:
 
-  - [https://guide.elm-lang.org/core\_language.html](https://guide.elm-lang.org/core_language.html)
+  - <https://guide.elm-lang.org/core_language.html>
   - <https://package.elm-lang.org/packages/elm/core/latest/String>
   - <https://package.elm-lang.org/packages/elm/core/latest/Char>
 

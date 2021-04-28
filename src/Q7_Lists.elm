@@ -6,7 +6,7 @@ module Q7_Lists exposing (beginsWithHello, beginsWithHelloWorld, beginsWithHello
 
 参照:
 
-  - [https://guide.elm-lang.org/core\_language.html](https://guide.elm-lang.org/core_language.html)
+  - <https://guide.elm-lang.org/core_language.html>
   - <https://package.elm-lang.org/packages/elm/core/latest/List>
 
 -}

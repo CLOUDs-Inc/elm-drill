@@ -81,7 +81,7 @@ toEvenList list =
 
 {-| 数値をカンマ区切りの文字列にします。
 
-    [1,2,3] ==> "1,2,3"
+    [ 1, 2, 3 ] ==> "1,2,3"
 
 -}
 showNumbers : List Int -> String
