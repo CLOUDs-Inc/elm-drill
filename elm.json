@@ -1,7 +1,7 @@
 {
   "type": "application",
-  "source-directories": ["src", "tests", "answers"],
-  "elm-version": "0.19.0",
+  "source-directories": ["src", "answers"],
+  "elm-version": "0.19.1",
   "dependencies": {
     "direct": {
       "elm/core": "1.0.0",
