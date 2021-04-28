@@ -38,7 +38,7 @@ greet lang =
 listGreetings : (Language -> String) -> List ( Language, String )
 listGreetings toGreeting =
     [ Ja, En, Fr ]
-        |> List.map (\lang -> ( lang, greet lang ))
+        |> List.map (\lang -> ( lang, toGreeting lang ))
 
 
 {-| 訪問中のユーザーに表示するメッセージを返します
