@@ -38,7 +38,7 @@ $ npm install
 それぞれの問題はユニットテストになっています。以下のコマンドで実行できます。
 
 ```sh
-$ npx elm-test tests/Tests.elm
+$ npm start
 ```
 
 関数が実装されていないので失敗します。src/Q1_Numbers.elm を見てください。
