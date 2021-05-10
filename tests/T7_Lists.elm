@@ -28,7 +28,7 @@ suite =
         , testQA2 "collect" (map (\i n -> remainderBy i n == 0) (intRange 1 5)) (list int) Q.collect A.collect
         , testQA "sortByX" (list (map2 Position int int)) Q.sortByX A.sortByX
         , testQA2 "zip" (list float) (list string) Q.zip A.zip
-        , testQA "zipWithIndex" (list int) Q.zipWithIndex A.zipWithIndex
+        , testQA "zipWithIndex" (list string) Q.zipWithIndex A.zipWithIndex
         , testQA2 "removeAt" int (list string) Q.removeAt A.removeAt
         ]
 
