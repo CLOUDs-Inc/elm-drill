@@ -39,6 +39,10 @@ $ npm install
 
 ```sh
 $ npm start
+
+# (windows等、うまく行かない場合はdockerで実行することができます)
+$ docker-compose build # 初回のみ
+$ docker-compose up # テストが実行されます
 ```
 
 関数が実装されていないので失敗します。src/Q1_Numbers.elm を見てください。
