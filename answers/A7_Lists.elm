@@ -223,7 +223,7 @@ zip list1 list2 =
 {-| インデックスと要素を対にしたリストを作ります
 zipWithIndex ["foo", "bar"] ==> [(0,"foo"), (1,"bar")]
 -}
-zipWithIndex : List a -> List ( Int, a )
+zipWithIndex : List String -> List ( Int, String )
 zipWithIndex list =
     List.indexedMap Tuple.pair list
 
